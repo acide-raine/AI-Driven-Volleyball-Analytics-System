@@ -77,10 +77,6 @@ def sliding_window(v_p, w_s, ovrlp):
 
     cap.release()
 
-# for window in sliding_window(video_path, 30, 15):
-#     process(window) # тут потом поисываю логику что мне делать с каждым окном
-
-
 
 
 
