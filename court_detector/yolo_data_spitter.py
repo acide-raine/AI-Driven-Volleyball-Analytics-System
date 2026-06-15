@@ -2,8 +2,8 @@ import os
 import shutil
 from sklearn.model_selection import train_test_split
 
-images_dir = "/court_detector/dataset/images"
-labels_dir = "/court_detector/dataset/labels"
+images_dir = "/court_detector/Dataset_court/images"
+labels_dir = "/court_detector/Dataset_court/labels"
 output_dir = "/court_detector/Yolo_court_dataset"
 
 image_extensions = (".jpg", ".jpeg", ".png")
