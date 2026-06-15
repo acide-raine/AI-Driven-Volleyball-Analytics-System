@@ -1,11 +1,6 @@
 import cv2
 import time
 
-video_path = "/Stock_video/your_video.mp4"
-window_size = 30
-overlap = 15
-
-
 def sliding_window(v_p, w_s, ovrlp):
     '''
     Функция генератор для чтения видео и сбора его кадров в массивы длинной w_s с перекрытием ovrlp
